@@ -1,6 +1,6 @@
 {
   "name": "meteor-ditto",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A framework to work with Redux in a Meteor application",
   "main": "lib/index.js",
   "scripts": {

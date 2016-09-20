@@ -23,11 +23,10 @@ First install the package:
 npm install --save meteor-ditto
 ```
 
-After require and setup the reducers. Be aware that the name of your reducer has
-to be `mongo`:
+Next setup the reducers.
 
 ```javascript
-import { reducers as mongo } from 'meteor-ditto';
+import { mongo } from 'meteor-ditto';
 
 const reducers = combineReducers({
   mongo,
@@ -35,7 +34,7 @@ const reducers = combineReducers({
 });
 ```
 
-And finally connect the collections:
+Finally, connect the collections:
 
 ```javascript
 import { connect as connectCollection } from 'meteor-ditto';
